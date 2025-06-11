@@ -1,7 +1,7 @@
 title: JPShag Security Docs
 description: "Where malloc() meets metal - Systems Architecture & Hardware Hacking Documentation"
 theme: just-the-docs
-url: "https://jpshag.github.io/security-docs"
+url: "https://blog.vcpu.dev"
 baseurl: "/security-docs"
 color_scheme: dark
 search_enabled: true
