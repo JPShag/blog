@@ -1,8 +1,40 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: JPShag Security Docs
+description: "Where malloc() meets metal - Systems Architecture & Hardware Hacking Documentation"
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
+url: "https://jpshag.github.io/security-docs"
+baseurl: "/security-docs"
+color_scheme: dark
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+footer_content: "Copyright &copy; 2025 JPShag. <a href=\"https://github.com/JPShag\">GitHub</a> | <a href=\"mailto:vcpu@nvidiasoftware.com\">Contact</a>"
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "GitHub":
+    - "//github.com/JPShag"
+  "Twitter":
+    - "//twitter.com/vcpu_sec"
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_exclude: false
+      search_exclude: false
+enable_copy_code_button: true
+back_to_top: true
+back_to_top_text: "Back to top"
+heading_anchors: true
+
+nav_external_links:
+  - title: GPG Key
+    url: https://raw.githubusercontent.com/JPShag/profile-resources/refs/heads/main/assets/JPShag_public.asc
+color_scheme: dark
