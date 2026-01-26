@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "jekyll", "~> 4.3"
-gem "just-the-docs", "~> 0.7.0"
+gem "just-the-docs", "~> 0.12.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
